@@ -1,0 +1,38 @@
+body {
+    background: #d4d0b8; /* Цвет фона */
+    color: #fc0; /* Цвет текста */
+   }
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0 1.);
+
+
+} 
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+.navbar-menu li {
+    display: inline-block;
+
+}
+.navbar-menu li a{
+    display: inline-block;
+
+}
+.navbar-wrap li {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
