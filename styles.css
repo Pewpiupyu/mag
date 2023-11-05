@@ -7,10 +7,25 @@ body {
     height: 100vh;
     font-family: Consolas;
 
-    background-color: #333; /* Цвет фона */
+    background-image: url(/image/3.jfif); /* Цвет фона */
     color: rgb(247, 215, 86); /* Цвет текста */
    }
+   img.background {
 
+    min-height: 100%;
+    
+    min-width: 640px;
+    
+    width: 100%;
+    
+    height: auto;
+    
+    position: fixed;
+    
+    top: 0;
+    
+    left: 0;
+   }
 .button {
 
     position: relative;
